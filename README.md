@@ -2,6 +2,15 @@
 
 ### 네이버 영화 리뷰 감성분석 및 워드클라우드
 
+folder1. movie: 네이버 영화에서 크롤링한 영화 리뷰 데이터
+
+    [title, link, score, review]
+    
+folder2. sentiment: 영화리뷰 감성분석 시행 수 감성점수 포함된 리뷰 데이터
+
+    [title, link, score, review, sentiment]
+
+
 1. Movie Crawling
     - 네이버 영화 '네티즌 평점' 탭에서의 리뷰 크롤링
     - https://movie.naver.com/movie/point/af/list.naver
